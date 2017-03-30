@@ -1,7 +1,7 @@
 var femaleNames = ['Asia', 'Kasia', 'Ola', 'Jola'];
-	maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
-	allNames = femaleNames.concat(maleNames);
-	newName = 'Kacper';
+var maleNames = ['Piotrek', 'Marek', 'Arek', 'Jarek'];
+var allNames = femaleNames.concat(maleNames);
+var newName = 'Kacper';
 if (allNames.indexOf(newName) === -1) {
   allNames.push(newName);
   document.write(allNames);
